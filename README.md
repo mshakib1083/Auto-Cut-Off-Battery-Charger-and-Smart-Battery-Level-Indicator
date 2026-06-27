@@ -11,7 +11,7 @@ This project presents the design and hardware implementation of an **Auto Cut-Of
 ## System Architecture
 The system operates by converting AC mains to DC, monitoring the battery voltage, and utilizing a relay to cut power once the maximum threshold is reached.
 
-![System Block Diagram](assets/diagram.png)
+![System Block Diagram](assets/diagram.png)  
 *Figure: Block diagram of the proposed system architecture.*
 
 ## Key Features
@@ -40,7 +40,5 @@ To achieve the auto cut-off and visual indication features, the design relies on
 ## Hardware Implementation
 The final prototype was successfully soldered and mounted onto a PVC board, integrating the transformer, control ICs, relays, and LED indicators.
 
-![Hardware Prototype](assets/physical_ckt.jpg)
+![Hardware Prototype](assets/physical_ckt.png)
 *Figure: Final hardware implementation of the battery charger.*
-
-y waste and adding advanced fault detection and thermal management.
